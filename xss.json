@@ -1,0 +1,9 @@
+{
+    "url": "https://raw.githubusercontent.com/Evil-twinz/evil/refs/heads/main/xss.yaml",
+    "urls": [
+        {
+            "url": "https://raw.githubusercontent.com/Evil-twinz/evil/refs/heads/main/xss.yaml",
+            "name": "Foo"
+        }
+    ]
+}
